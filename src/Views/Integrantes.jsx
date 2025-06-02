@@ -18,10 +18,10 @@ function Integrantes() {
             nombre = 'Angie Lara'/>
             <Integrante
             imagen = 'hector.jpeg'
-            nombre = 'Juan Carlos'/>
+            nombre = 'Héctor Interiano'/>
             <Integrante
             imagen = 'stanley.jpeg'
-            nombre = 'Stanley Deras'/>
+            nombre = 'Stanley Vásquez'/>
 
 
         </div>

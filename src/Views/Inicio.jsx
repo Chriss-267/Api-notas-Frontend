@@ -57,13 +57,13 @@ function Inicio() {
                     <p className='font-bold text-sky-800 text-lg text-center'>Asistencia <br /> WhatsApp</p>
                 </section>
             </a>
-            <a href="#">
+            <Link to={'/maestros'}>
                 <section className='bg-sky-800 w-[13vw] h-full flex flex-col items-center justify-center gap-2'>
                 <img loading="lazy" decoding="async" class="vce-single-image" width="100" height="100" srcset="https://www.pedagogica.edu.sv/wp-content/uploads/2025/03/logo-microsoft-learn-320x320.png 320w, https://www.pedagogica.edu.sv/wp-content/uploads/2025/03/logo-microsoft-learn-480x480.png 480w, https://www.pedagogica.edu.sv/wp-content/uploads/2025/03/logo-microsoft-learn-800x800.png 800w, https://www.pedagogica.edu.sv/wp-content/uploads/2025/03/logo-microsoft-learn-100x100.png 100w, https://www.pedagogica.edu.sv/wp-content/uploads/2025/03/logo-microsoft-learn-200x200.png 2x" src="https://www.pedagogica.edu.sv/wp-content/uploads/2025/03/logo-microsoft-learn-100x100.png" data-img-src="https://www.pedagogica.edu.sv/wp-content/uploads/2022/05/logo-microsoft-learn.png" data-attachment-id="11970" alt="" title="logo-microsoft-learn"></img>
 
                     <p className='font-bold text-white text-lg text-center'>Maestros</p>
                 </section>
-            </a>
+            </Link>
             
         </nav>
         

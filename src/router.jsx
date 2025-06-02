@@ -9,6 +9,7 @@ import Login from "./Views/Login";
 import AuthLayout from "./layouts/AuthLayout";
 import Register from "./Views/Register";
 import Integrantes from "./Views/Integrantes";
+import Maestros from "./components/Maestros";
 
 
 
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path :'/integrantes',
                 element : <Integrantes/>
+            },
+            {
+                path : '/maestros',
+                element : <Maestros/>
             }
 
         ]

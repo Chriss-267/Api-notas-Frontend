@@ -37,16 +37,21 @@ function Materias() {
                 
             </div>
             <div className='flex gap-4 flex-wrap'>
-            {materias.map((materia) => (
-                <MateriaGeneral
-                  key={materia.id}
-                  materia={materia}
-                  setEdicion={setEdicion}
-                  setMateriaModal={setMateriaModal}
-                  handleClickModal={handleClickModal}
-                />
-                
-            ))}
+              {materias?.length > 0 ? (
+                  materias.map((materia) => (
+                    <MateriaGeneral
+                      key={materia.id}
+                      materia={materia}
+                      setEdicion={setEdicion}
+                      setMateriaModal={setMateriaModal}
+                      handleClickModal={handleClickModal}
+                    />
+                    
+                ))
+              ) : (
+                <p className='text-center p-6'>No hay materias aún</p>
+              )}
+          
             </div>
 
             <Modal isOpen={modal} style={customStyles} onRequestClose={() => setModal(false)}>
