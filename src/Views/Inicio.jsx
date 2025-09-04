@@ -10,7 +10,7 @@ function Inicio() {
   return (
     <div>
         <div>
-        <img src="https://www.pedagogica.edu.sv/wp-content/uploads/2024/09/ciclo-01-2025.jpg" height="400" width="1920" alt="" class="slider-1761 slide-43587" title="ciclo-01-2025" draggable="false"/>
+        <!--<img src="https://www.pedagogica.edu.sv/wp-content/uploads/2024/09/ciclo-01-2025.jpg" height="400" width="1920" alt="" class="slider-1761 slide-43587" title="ciclo-01-2025" draggable="false"/>-->
         </div>
         <nav className='flex w-full justify-center bg-sky-950 h-[25vh]'>
             <Link to={'/materias'}>
