@@ -92,7 +92,7 @@ function Layout() {
         </main>
 
         <footer className='bg-gray-800 text-white flex justify-center items-center h-[10vh]'>
-          <p>2025 © Universidad Pedagógica de El Salvador | Todos los derechos reservados</p>
+          <p>2025 © Centro Escolar Cantón Lourdes | Todos los derechos reservados</p>
         </footer>
     </div>
   )
